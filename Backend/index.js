@@ -10,7 +10,11 @@ const app = express();
 const uri = process.env.URI;
 const PORT = process.env.PORT;
 app.use(express.json());
-app.use(cors());
+// Allow requests only from a specific origin
+app.use(cors({
+  origin: 'https://chatbot-lg16.vercel.app'
+}));
+
 app.use(express.urlencoded({ extended: true }));
 
 // configure OpenAI
