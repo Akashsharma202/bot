@@ -26,7 +26,7 @@ export const SignUp = () => {
         });
          console.log("info submitted successfully");
          // eslint-disable-next-line no-unused-vars
-         const response = await axios.post('https://bot-sigma-beige.vercel.app/EmptyPost', {username:username});
+         const response = await axios.post('http://bot-sigma-beige.vercel.app/EmptyPost', {username:username});
          navigate("/login")
         // Your axios and navigation code here...
       })
