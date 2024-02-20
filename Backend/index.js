@@ -11,9 +11,7 @@ const uri = process.env.URI;
 const PORT = process.env.PORT;
 app.use(express.json());
 // Allow requests only from a specific origin
-app.use(cors({
-  origin: 'http://chatbot-lg16.vercel.app'
-}));
+app.use(cors());
 
 app.use(express.urlencoded({ extended: true }));
 
