@@ -20,16 +20,16 @@ const ChatPage = () => {
 
             // Simulate ChatGPT response
             try {
-                const updateuser = await axios.put('http://bot-sigma-beige.vercel.app/PostMessage', { username: mystate.username, messages: { text: newMessage, sender: 'user', timestamp: timestamp } });
+                const updateuser = await axios.put('https://bot-sigma-beige.vercel.app/PostMessage', { username: mystate.username, messages: { text: newMessage, sender: 'user', timestamp: timestamp } });
                 // console.log(updateuser);
 
-                const response = await axios.get('http://bot-sigma-beige.vercel.app/GetChatResponse', {
+                const response = await axios.get('https://bot-sigma-beige.vercel.app/GetChatResponse', {
                     params: {
                         question: newMessage
                     }
                 });
 
-                const update = await axios.put('http://bot-sigma-beige.vercel.app/PostMessage', { username: mystate.username, messages: { text: response.data.message.content, sender: 'chatgpt', timestamp: timestamp } });
+                const update = await axios.put('https://bot-sigma-beige.vercel.app/PostMessage', { username: mystate.username, messages: { text: response.data.message.content, sender: 'chatgpt', timestamp: timestamp } });
                 // console.log(update);
 
                 // console.log(response.data);
