@@ -11,7 +11,7 @@ const History = () => {
         const fetchMessages = async () => {
             try {
                 // console.log(myState);
-                const response = await axios.get("https://bot-sigma-beige.vercel.app/GetMessage", {
+                const response = await axios.get("http://bot-sigma-beige.vercel.app/GetMessage", {
                     params: {
                         username: myState.username
                     }
