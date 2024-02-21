@@ -39,7 +39,7 @@ export const SignUp = () => {
   return (
     <div className="flex items-center justify-center bg-black h-[89%]">
       <form className="bg-gray-600 p-5  shadow-md px-8 pb-8 mb-4 w-full sm:w-1/2 lg:w-1/3 rounded-lg">
-        <h2 className="text-2xl text-center mb-4">SignIn Form</h2>
+        <h2 className="text-2xl text-center mb-4">SignUp Form</h2>
         <div className="mb-4">
           <input
             placeholder="Username"
