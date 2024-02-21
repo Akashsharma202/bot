@@ -10,6 +10,7 @@ const app = express();
 const uri = process.env.URI;
 const PORT = process.env.PORT;
 app.use(express.json());
+console.log("hello")
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
