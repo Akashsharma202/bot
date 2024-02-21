@@ -68,7 +68,7 @@ export const SignUp = () => {
             className="bg-black hover:bg-white hover:text-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="button"
           >
-            SignIn
+            SignUp
           </button>
           <p className="text text-black">
             Already have an account? {' '}
