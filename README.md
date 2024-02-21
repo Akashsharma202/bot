@@ -26,4 +26,12 @@ Install my-project with git
   npm i
   npm run dev
 ```
+
+## Screenshots
+![screen1](https://github.com/Akashsharma202/bot/assets/46256481/f1092f57-abe8-44e0-8c94-3b7cc6540d1b)
+![Screenshot 2024-02-21 125100](https://github.com/Akashsharma202/bot/assets/46256481/2d465ddf-4445-4e3d-bd9f-ba9f6eacb7f9)
+![Screenshot 2024-02-21 125417](https://github.com/Akashsharma202/bot/assets/46256481/520da8b9-b637-4086-8d1d-fb023d9691c1)
+![Screenshot 2024-02-21 125546](https://github.com/Akashsharma202/bot/assets/46256481/038694cc-a1a9-43a2-b0bb-3b3baa2b4b1e)
+
+
     
