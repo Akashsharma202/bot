@@ -47,7 +47,7 @@ const Navbar = () => {
             <path stroke="currentColor" d="M1 1h15M1 7h15M1 13h15" />
           </svg>
         </button>
-        <div className={`w-full md:block md:w-auto ${isMenuOpen ? "" : "hidden"}`} id="navbar-default"> // Toggle visibility based on isMenuOpen state
+        <div className={`w-full md:block md:w-auto ${isMenuOpen ? "" : "hidden"}`} id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-[#171717] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
               <NavLink to="/history" className="block py-2 px-3 text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0">History</NavLink>
